@@ -1,8 +1,7 @@
 <TabView androidTabsPosition="bottom">
 
     <page-router-outlet
-        *tabItem="{title: 'Home', iconSource: getIconSource('home')}"
-        name="homeTab">
+        *tabItem="{title: 'Home', iconSource: getIconSource('home')}">
     </page-router-outlet>
 
     <page-router-outlet
@@ -14,17 +13,5 @@
         *tabItem="{title: 'Search', iconSource: getIconSource('search')}"
         name="searchTab">
     </page-router-outlet>
-
-    <!-- <GridLayout *tabItem="{title: 'Home', iconSource: getIconSource('home')}">
-        <router-outlet name="homeTab"></router-outlet>
-    </GridLayout>
-    
-    <GridLayout *tabItem="{title: 'Browse', iconSource: getIconSource('browse')}">
-        <router-outlet name="browseTab"></router-outlet>
-    </GridLayout>
-
-    <GridLayout *tabItem="{title: 'Search', iconSource: getIconSource('search')}">
-        <router-outlet name="searchTab"></router-outlet>
-    </GridLayout> -->
 
 </TabView>

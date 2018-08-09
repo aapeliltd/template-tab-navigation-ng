@@ -3,7 +3,6 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { NsEmptyOutletComponent } from "./ns-empty-outlet.component";
 
 @NgModule({
     bootstrap: [
@@ -14,8 +13,7 @@ import { NsEmptyOutletComponent } from "./ns-empty-outlet.component";
         AppRoutingModule
     ],
     declarations: [
-        AppComponent,
-        NsEmptyOutletComponent
+        AppComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA
